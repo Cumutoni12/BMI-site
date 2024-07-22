@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Clarisse's Space Shuttle</title>
     <link href="style.css" rel="stylesheet">
-    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
   <!-- Babel (for JSX and ES6 support) -->
   <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   </head>
   <body>
       <header>
-        <div id="root"></div>
-        <nav class="main-nav">
+          <nav class="main-nav">
           <a href="#">About</a>
           <a href="#">Photos</a>
           <a href="#">Store</a>
@@ -27,6 +26,7 @@
       </div>
 
       <main class="container">
+        <div id="root"></div>
         <div class="intro">        
           <h2>Tribute to the Space Shuttle</h2>
           <p>This site is a tribute to the Space Shuttle. NASA operated this partially orbital spacecraft from 1981 to 2011 as part of the <a href="https://en.wikipedia.org/wiki/Space_Transportation_System">Space Transportation System</a> program. Five complete Space Shuttle orbiter vehicles were built and flown on 135 missions from 1981 to 2011, launched from the Kennedy Space Center in Florida.</p>
@@ -48,6 +48,6 @@
       <footer>
         <a href="https://en.wikipedia.org/wiki/Space_Shuttle">&copy; The Space Shuttle | 1981-2011</a>
       </footer>
-      <script src="test.js"></script>
+      <script src="test.js" type="text/babel"></script>
   </body>
 </html>
